@@ -9,7 +9,7 @@ public class Pessoa {
         this.nome = nome;
 
         if (CPF.length() < 11){
-            this.CPF = "Inválido";
+            this.CPF = "inválido";
         } else {
             this.CPF = CPF;
         }
@@ -59,7 +59,7 @@ public class Pessoa {
 
     public void setCPF(String CPF) {
         if (CPF.length() < 11){
-            this.CPF = "Inválido";
+            this.CPF = "inválido";
         } else {
             this.CPF = CPF;
         }
